@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>91电影网-搜索</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="91movies.css">
+</head>
+<body>
+<!--导航栏-->
+<header id="nav" class="header">
+    <div class="header-wrap">
+        <div class="header-inner">
+            <!--                logo-->
+            <div class="logo">
+                <img src="images/logo.png" height="44" width="164"/>
+            </div>
+            <!--                搜索栏-->
+            <div class="search">
+                <div class="search-box">
+                        <span class="search-box-in">
+                            <input placeholder="91电影网-想看的电影全都没有" type="text" class="search-box-input">
+                        </span>
+                    <span class="search-box-out">
+                            <span class="search-box-btn">
+                                <font style="padding-right: 5px;">91搜一下</font>
+                            </span>
+                        </span>
+                </div>
+            </div>
+            <!--                登陆注册-->
+            <div class="header-side" style="margin-right: 250px;">
+                <div>
+                    <a class="header-sideItemCon">
+                        <span>登陆</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-side" style="margin-right: 50px;">
+                <div>
+                    <a class="header-sideItemCon">
+                        <span>注册</span>
+                    </a>
+                </div>
+            </div>
+            <!--                登陆成功后-->
+            <!--                <div class="header-side" style="margin-right: 250px;">-->
+            <!--                    <div style="color: #00be06">-->
+            <!--                        尊敬的SVIP：<strong style="color: #ff615f">涂先生</strong>，欢迎回来！-->
+            <!--                    </div>-->
+            <!--                </div>-->
+        </div>
+    </div>
+</header>
+<!--提示-->
+<div style="margin-top: 70px;margin-left: 150px;">
+    <p>搜索“<strong style="color: #f28b61">小丑</strong>”，找到了这些：</p>
+</div>
+<!--查询结果电影-->
+<div>
+    <ul>
+        <li>
+            <div class="search-moive">
+                <div class="search-moive-img-shadow">
+                    <img class="search-moive-img" src="images/s1.jpg" />
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<script>
+    //导航栏固定
+var nav = document.getElementById("nav");
+nav.style.position="fixed";
+nav.style.top="0px";
+nav.style.left="0px";
+</script>
+</body>
+</html>

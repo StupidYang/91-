@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>91电影网</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="91movies.css">
+
+</head>
+<body>
+<!--导航栏-->
+    <header class="header">
+        <div class="header-wrap">
+            <div class="header-inner">
+<!--                logo-->
+                <div class="logo">
+                    <img src="images/logo.png" height="44" width="164"/>
+                </div>
+<!--                搜索栏-->
+                <div class="search">
+                    <div class="search-box">
+                        <span class="search-box-in">
+                            <input placeholder="91电影网-想看的电影全都没有" type="text" class="search-box-input">
+                        </span>
+                        <span class="search-box-out">
+                            <span class="search-box-btn">
+                                <font style="padding-right: 5px;">91搜一下</font>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+<!--                登陆注册-->
+                <div class="header-side" style="margin-right: 250px;">
+                    <div>
+                        <a class="header-sideItemCon">
+                            <span>登陆</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header-side" style="margin-right: 50px;">
+                    <div>
+                        <a class="header-sideItemCon">
+                            <span>注册</span>
+                        </a>
+                    </div>
+                </div>
+<!--                登陆成功后-->
+<!--                <div class="header-side" style="margin-right: 250px;">-->
+<!--                    <div style="color: #00be06">-->
+<!--                        尊敬的SVIP：<strong style="color: #ff615f">涂先生</strong>，欢迎回来！-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </header>
+<!--轮播图-->
+<div class="wrap">
+    <div class="img-wrap">
+        <ul class="item-list">
+        </ul>
+    </div>
+</div>
+<!--分类-->
+<div class="sort">
+    <div class="sort-tit">
+        电影分类
+    </div>
+    <div class="sort-nav">
+        <a href="#">欧美</a>
+        <a href="#">大陆</a>
+        <a href="#">剧情</a>
+        <a href="#">爱情</a>
+        <a href="#">惊悚</a>
+        <a href="#">悬疑</a>
+        <a href="#">动画</a>
+        <a href="#">历史</a>
+    </div>
+    <div class="sort-nav">
+        <a href="#">日韩</a>
+        <a href="#">香港</a>
+        <a href="#">喜剧</a>
+        <a href="#">纪录</a>
+        <a href="#">动作</a>
+        <a href="#">科幻</a>
+        <a href="#">音乐</a>
+        <a href="#">VIP</a>
+    </div>
+    <div class="sort-nav">
+        <a href="#">欧美</a>
+        <a href="#">大陆</a>
+        <a href="#">剧情</a>
+        <a href="#">爱情</a>
+        <a href="#">惊悚</a>
+        <a href="#">悬疑</a>
+        <a href="#">动画</a>
+        <a href="#">历史</a>
+    </div>
+    <div class="sort-nav">
+        <a href="#">日韩</a>
+        <a href="#">香港</a>
+        <a href="#">喜剧</a>
+        <a href="#">纪录</a>
+        <a href="#">动作</a>
+        <a href="#">科幻</a>
+        <a href="#">音乐</a>
+        <a href="#">VIP</a>
+    </div>
+</div>
+<!--电影推荐栏-->
+<div style="margin-top: 20px;">
+    <div class="recommend">
+        精彩推荐 / <small style="font-size: 20px;">最新电影抢先看不到</small>
+    </div>
+    <div class="rec-moives">
+        <ul>
+<!--一行七个，样例-->
+            <li>
+                <div class="rec-movie" align="center">
+                    <div class="img-shadow">
+                        <a onmouseover="gocolor(1)" onmouseout="comecolor(1)" href="#">
+                            <img class="img-bigger" src="images/m1.jpg"/>
+                        </a>
+                    </div>
+                        <a onmouseover="gocolor(1)" onmouseout="comecolor(1)"
+                           href="#" id="1">《小丑》：探寻人心中的那个恶魔</a>
+                </div>
+            </li>
+            <li>
+                <div class="rec-movie" align="center">
+                    <div class="img-shadow">
+                        <a onmouseover="gocolor(2)" onmouseout="comecolor(2)" href="#">
+                            <img class="img-bigger" src="images/m1.jpg"/>
+                        </a>
+                    </div>
+                    <a onmouseover="gocolor(2)" onmouseout="comecolor(2)"
+                       href="#" id="2">《小丑》：探寻人心中的那个恶魔</a>
+                </div>
+            </li>
+            <li>
+                <div class="rec-movie" align="center">
+                    <div class="img-shadow">
+                        <a onmouseover="gocolor(3)" onmouseout="comecolor(3)" href="#">
+                            <img class="img-bigger" src="images/m1.jpg"/>
+                        </a>
+                    </div>
+                    <a onmouseover="gocolor(3)" onmouseout="comecolor(3)"
+                       href="#" id="3">《小丑》：探寻人心中的那个恶魔</a>
+                </div>
+            </li>
+            <li>
+                <div class="rec-movie" align="center">
+                    <div class="img-shadow">
+                        <a onmouseover="gocolor(4)" onmouseout="comecolor(4)" href="#">
+                            <img class="img-bigger" src="images/m1.jpg"/>
+                        </a>
+                    </div>
+                    <a onmouseover="gocolor(4)" onmouseout="comecolor(4)"
+                       href="#" id="4">《小丑》：探寻人心中的那个恶魔</a>
+                </div>
+            </li>
+            <li>
+                <div class="rec-movie" align="center">
+                    <div class="img-shadow">
+                        <a onmouseover="gocolor(5)" onmouseout="comecolor(5)" href="#">
+                            <img class="img-bigger" src="images/m1.jpg"/>
+                        </a>
+                    </div>
+                    <a onmouseover="gocolor(5)" onmouseout="comecolor(5)"
+                       href="#" id="5">《小丑》：探寻人心中的那个恶魔</a>
+                </div>
+            </li>
+            <li>
+                <div class="rec-movie" align="center">
+                    <div class="img-shadow">
+                        <a onmouseover="gocolor(6)" onmouseout="comecolor(6)" href="#">
+                            <img class="img-bigger" src="images/m1.jpg"/>
+                        </a>
+                    </div>
+                    <a onmouseover="gocolor(6)" onmouseout="comecolor(6)"
+                       href="#" id="6">《小丑》：探寻人心中的那个恶魔</a>
+                </div>
+            </li>
+            <li>
+                <div class="rec-movie" align="center">
+                    <div class="img-shadow">
+                        <a onmouseover="gocolor(7)" onmouseout="comecolor(7)" href="#">
+                            <img class="img-bigger" src="images/m1.jpg"/>
+                        </a>
+                    </div>
+                    <a onmouseover="gocolor(7)" onmouseout="comecolor(7)"
+                       href="#" id="7">《小丑》：探寻人心中的那个恶魔</a>
+                </div>
+            </li>
+            <li>
+                <div class="rec-movie" align="center">
+                    <div class="img-shadow">
+                        <a onmouseover="gocolor(8)" onmouseout="comecolor(8)" href="#">
+                            <img class="img-bigger" src="images/m1.jpg"/>
+                        </a>
+                    </div>
+                    <a onmouseover="gocolor(8)" onmouseout="comecolor(8)"
+                       href="#" id="8">《小丑》：探寻人心中的那个恶魔</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--底部-->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-company">
+            <div class="footer-info">
+                <p class="info-title">班级</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">计科172班</a></li>
+                    <li class="list-item"><a href="#">计科172班</a></li>
+                    <li class="list-item"><a href="#">计科174班</a></li>
+                    <li class="list-item"><a href="#">计科172班</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p class="info-title">姓名</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">杨旭东</a></li>
+                    <li class="list-item"><a href="#">涂会超</a></li>
+                    <li class="list-item"><a href="#">邵&nbsp;&nbsp;&nbsp;&nbsp;琦</a></li>
+                    <li class="list-item"><a href="#">李&nbsp;&nbsp;&nbsp;&nbsp;翔</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p class="info-title">学号</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">6109117101</a></li>
+                    <li class="list-item"><a href="#">6109117100</a></li>
+                    <li class="list-item"><a href="#">6109117099</a></li>
+                    <li class="list-item"><a href="#">6109117102</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p class="info-title">分工</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">首页和主样式设定，视频弹幕</a></li>
+                    <li class="list-item"><a href="#">视频播放页面</a></li>
+                    <li class="list-item"><a href="#">搜索页面，后端支持</a></li>
+                    <li class="list-item"><a href="#">登陆注册js模态框实现，后端支持</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p class="info-title">说明</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">照着爱奇艺做的</a></li>
+                    <li class="list-item"><a href="#">css全部手写</a></li>
+                    <li class="list-item"><a href="#">没有用任何前端框架</a></li>
+                    <li class="list-item"><a href="#">都是原生js</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/index.js"></script>
+<script type="text/javascript">
+    window.onload = function () {
+        initItemList();
+        addEnterListener();
+        autoMove();
+    }
+    function gocolor(id) {
+        document.getElementById(id).style.color="#00be06";
+    }
+    function comecolor(id) {
+        document.getElementById(id).style.color="#000";
+    }
+</script>
+</body>
+</html>
