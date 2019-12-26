@@ -27,7 +27,7 @@ let items = [
 ];   // 数据
 let curIndex = 0;   // 当前索引
 let isAutoMove = true;  // 是否可以自动改变图片
-let interval = 2000;  // 自动轮播的间隔时间
+let interval = 2500;  // 自动轮播的间隔时间
 function createTag(tag) {
     return document.createElement(tag);
 }
@@ -92,7 +92,7 @@ function addEnterListener() {
 function autoMove() {
     let timer = setInterval(function () {
         if (isAutoMove) {
-            if (curIndex < 9) {
+            if (curIndex < 5) {
                 curIndex ++;
             } else {
                 curIndex = 0;

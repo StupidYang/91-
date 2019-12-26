@@ -1,0 +1,158 @@
+* {
+    -webkit-tap-highlight-color:rgba(255, 255, 255, 0);
+    font-family:"PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif";
+    margin:0;
+    padding:0;
+}
+.el-input {
+    display:inline-block;
+    font-size:14px;
+    position:relative;
+    width:100%;
+}
+.register-container {
+    margin:0 auto;
+    max-width: 580px;
+    max-height: 340px;
+}
+.form-desc, .form-group {
+    font-size:12px;
+    margin:0 auto;
+    position:relative;
+    width:420px;
+}
+.el-input__inner {
+    -webkit-appearance:none;
+    background-color:#FFFFFF;
+    background-image:none;
+    border:1px solid #DCDFE6;
+    border-radius:4px;
+    box-sizing:border-box;
+    color:#606266;
+    display:inline-block;
+    font-size:inherit;
+    height:40px;
+    line-height:40px;
+    outline:0;
+    padding:0 15px;
+    transition:border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width:100%;
+}
+.error-message {
+    color:#F45D90;
+    font-size:12px;
+    position:absolute;
+    right:-20px;
+    top:12px;
+    transform:translate3d(100%, 0px, 0px);
+}
+.Supplementary-note {
+    color:#F45D90;
+    font-size:12px;
+}
+.register-hidden-gruop {
+    height:40px;
+    margin:0 auto;
+    width:420px;
+}
+.form-desc, .form-group {
+    font-size:12px;
+    margin:0 auto;
+    position:relative;
+    width:420px;
+}
+.register-agree {
+    cursor:pointer;
+    display:block;
+    font-size:12px;
+    padding:10px 0;
+}
+.register-agree .check-box {
+    margin-bottom:3px;
+    vertical-align:middle;
+}
+.checkbox-bwxr input {
+    display: none;
+}
+.checkbox-bwxr.active {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0i5Zu+5bGCXzEiIGRhdGEtbmFtZT0i5Zu+5bGCIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDE2IDE2Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzAwYTFkNjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPjE2X2ljb19jaGVja2JveF9zZWxlY3RlZDwvdGl0bGU+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNiw5LjUsNC44LDguM0ExLjA2LDEuMDYsMCwwLDAsMy4zLDkuOGwxLjksMS45QTEuMDYsMS4wNiwwLDAsMCw2LDEyYTEuMDYsMS4wNiwwLDAsMCwuOC0uM2w1LjktNS45YTEuMDYsMS4wNiwwLDAsMC0xLjUtMS41Wk0yLDBIMTRhMiwyLDAsMCwxLDIsMlYxNGEyLDIsMCwwLDEtMiwySDJhMiwyLDAsMCwxLTItMlYyQTIsMiwwLDAsMSwyLDBaIi8+PC9zdmc+);
+}
+input[type="checkbox" ] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+.checkbox-bwxr {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0i5Zu+5bGCXzEiIGRhdGEtbmFtZT0i5Zu+5bGCIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDE2IDE2Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2NjZDBkNzt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPjE2X2ljb19jaGVja2JveDwvdGl0bGU+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTMuNSwxNkgyLjVBMi41LDIuNSwwLDAsMSwwLDEzLjVWMi41QTIuNSwyLjUsMCwwLDEsMi41LDBoMTFBMi41LDIuNSwwLDAsMSwxNiwyLjV2MTFBMi41LDIuNSwwLDAsMSwxMy41LDE2Wk0yLjUsMUExLjUsMS41LDAsMCwwLDEsMi41djExQTEuNSwxLjUsMCwwLDAsMi41LDE1aDExQTEuNSwxLjUsMCwwLDAsMTUsMTMuNVYyLjVBMS41LDEuNSwwLDAsMCwxMy41LDFaIi8+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    background-position: 50%;
+    cursor: pointer;
+}
+a {
+    text-decoration:none;
+    color:#00A1D6;
+}
+.btn-full {
+    width:100%;
+}
+.btn-full {
+    height:40px;
+    width:100%;
+}
+.el-button--primary {
+    background-color:#409EFF;
+    border-color:#409EFF;
+    color:#FFFFFF;
+}
+.el-button {
+    -webkit-appearance:none;
+    background:#FFFFFF;
+    border:1px solid #DCDFE6;
+    border-radius:4px;
+    box-sizing:border-box;
+    color:#606266;
+    cursor:pointer;
+    display:inline-block;
+    font-size:14px;
+    font-weight:500;
+    line-height:1;
+    margin:0;
+    outline:0;
+    padding:12px 20px;
+    text-align:center;
+    transition:0.1s;
+    white-space:nowrap;
+}
+.el-button {
+    user-select:none;
+}
+.register-hidden-gruop {
+    height:40px;
+    margin:0 auto;
+    width:420px;
+}
+.register-hidden-gruop.text-right {
+    line-height:40px;
+    text-align:right;
+}
+.el-button.is-disabled,.el-button.is-disabled:focus,.el-button.is-disabled:hover{
+    color:#c0c4cc;
+    cursor:not-allowed;
+    background-image:none;
+    background-color: #ebeef5;
+    border-color:#c0c4cc
+}
+
+.el-button.is-enable{
+    color:#ffffff;
+    cursor:pointer;
+    background-image:none;
+    background-color: #00A1D6;
+    border-color:#00A1D6;
+}
+.el-button.is-enable:focus,.el-button.is-enable:hover{
+    background-color: #33B4DE;
+}

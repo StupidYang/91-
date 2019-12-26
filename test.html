@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            font-family: sans-serif,'Microsoft Yahei'
+        }
+        .main{
+            position: relative;
+            margin: 100px auto;
+            width: 1024px;
+            height: 612px;
+        }
+        .container{
+            position: absolute;
+            top: 88px;
+            left: 186px;
+            width: 652px;
+            height: 408px;
+            background:black;
+            overflow: hidden;
+        }
+        .movie video{
+            position: relative;
+            width: 652px;
+            height: auto;
+        }
+        .player span{
+            position: absolute;
+            white-space: nowrap;
+            /* left: 100px; */
+            /* top: 50px; */
+            /* font-size: 20px; */
+            /* color: red; */
+        }
+        .danmu{
+            position: relative;
+            margin: 0 auto;
+            overflow: hidden;
+            width: 500px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        .danmu .input{
+            margin: 0;
+            padding: 0;
+            outline: none;
+            border: 0;
+            width: 420px;
+            height: 25px;
+            text-indent: 8px;
+        }
+        #btn{
+            text-align: center;
+            position: absolute;
+            letter-spacing: 1px;
+            top: 0;
+            right: 0;
+            height: 25px;
+            width: 80px;
+            font-size: 14px;
+            line-height: 25px;
+            color: white;
+            background: #ff6700;
+            cursor: pointer;
+        }
+        .al{
+            position: absolute;
+            bottom: 80px;
+            margin-left: -90px;
+            left: 50%;
+            width: 180px;
+            height: 24px;
+            color: white;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 1px;
+            display: none;
+            border-radius: 8px;
+            background: orangered;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="container">
+        <div class="movie">
+            <video src="vedio/1080P.mp4" controls="controls"></video>
+        </div>
+    </div>
+    <div>
+        <div class="danmu">
+            <input type="text" class="input" placeholder="请输入弹幕" >
+            <div id="btn">发送弹幕</div>
+        </div>
+        <div class="danmu-select">
+            <div>
+                弹幕位置：<input type="radio" value="all">全部
+                <input type="radio" value="top">上方
+                <input type="radio" value="bottom">下方
+                字体大小：<input type="range" value="18" min="8" max="24">
+            </div>
+        </div>
+    </div>
+    <div class="al">
+        输入内容不能为空!
+    </div>
+</div>
+<script src="js/danmu.js"></script>
+</body>
+</html>

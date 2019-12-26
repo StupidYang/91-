@@ -76,7 +76,7 @@
     float: left;
     font-size: 0;
     margin-top: 10px;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 .header{
     width: 100%;
@@ -193,16 +193,19 @@
     font-size: 38px;
     font-family: 微软雅黑;
     margin-left: 10%;
+    margin-right: 10%;
 }
 .rec-moives{
     margin-top: 10px;
     margin-left: 10%;
+    margin-right: 5%;
 }
 .rec-moives li{
     margin: 8px;
     display: inline-block;
 }
 .rec-movie{
+    height: 165px;
     width: 200px;
     background-color: #f2f2f2;
 }
