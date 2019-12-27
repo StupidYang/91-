@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>91电影网</title>
+    <title>91电影网-播放</title>
     <meta charset="utf-8">
     <style type="text/css">
         * {
@@ -10,6 +10,7 @@
         }
     </style>
     <link rel="stylesheet" href="91movies.css">
+    <link rel="stylesheet" href="play.css" />
 </head>
 <body>
 <!--导航栏-->
@@ -55,15 +56,109 @@
             <!--                    </div>-->
             <!--                </div>-->
         </div>
+        
     </div>
 </header>
-
-<script>
-    //导航栏固定
-    var nav = document.getElementById("nav");
-    nav.style.position="fixed";
-    nav.style.top="0px";
-    nav.style.left="0px";
-</script>
+	<!--描述：视频展示处-->
+		<div class="videoMargin">
+			<div class="player">
+                <div class="movie">
+                    <video id="video1" width="96%" height="72%" src="vedio/1080P.mp4" controls loop>
+                        您的浏览器不支持 HTML5 video 标签。
+                    </video>
+                </div>
+			</div>
+		<div class="R" >
+			<font>《小丑》</font>
+            <hr style="margin-top: 5px;"><br>
+            <div>
+                <a href="play.html">
+                    <img src="images/2.jpg" style="width: 100%">
+                </a>
+            </div>
+			<p>影片介绍：</p>
+            <div style="color: white;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;亚瑟·弗兰克是一名以小丑职业为生的普通人，患有精神疾病的他和母亲一同住在哥谭市的一座公寓里，幻想成为脱口秀演员的亚瑟为了这个目标而努力的生活着，但是现实却屡次击败他的梦想，亚瑟渐渐地变得越来越癫狂，某天在地铁上，亚瑟为了自保杀害了几名嘲笑他的人，同时，一个疯狂的想法在亚瑟心灵萌发……在看似和平的哥谭市，即将发生翻天覆地的巨变。
+                <br>
+            </div>
+            <br>
+		<p style="font-size: 24px;">猜你喜欢：</p>
+            <br>
+		<div align="center" style="overflow: hidden;">
+            <a href="play.html"><img src="images/5.jpg" width="100%"></a>
+        </div>
+		</div>
+        </div>
+<!--            弹幕-->
+<div class="danmu-background">
+    <div class="danmu">
+        <input type="text" class="input" placeholder="请输入弹幕" >
+        <div id="btn">发送弹幕</div>
+    </div>
+    <div class="danmu-select">
+        <div style="color: white;">
+            弹幕位置：<input checked name="danmu-position" type="radio" value="all">全部
+            <input type="radio" name="danmu-position" value="top">上方
+            <input type="radio" name="danmu-position" value="bottom">下方
+            &nbsp;&nbsp;&nbsp;&nbsp;弹幕颜色：<input value="#74738c" name="danmu-color" type="color">
+        </div>
+    </div>
+</div>
+<div class="al">
+    输入内容不能为空!
+</div>
+<!--底部-->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-company">
+            <div class="footer-info">
+                <p class="info-title">班级</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">计科172班</a></li>
+                    <li class="list-item"><a href="#">计科172班</a></li>
+                    <li class="list-item"><a href="#">计科174班</a></li>
+                    <li class="list-item"><a href="#">计科172班</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p class="info-title">姓名</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">杨旭东</a></li>
+                    <li class="list-item"><a href="#">涂会超</a></li>
+                    <li class="list-item"><a href="#">邵&nbsp;&nbsp;&nbsp;&nbsp;琦</a></li>
+                    <li class="list-item"><a href="#">李&nbsp;&nbsp;&nbsp;&nbsp;翔</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p class="info-title">学号</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">6109117101</a></li>
+                    <li class="list-item"><a href="#">6109117100</a></li>
+                    <li class="list-item"><a href="#">6109117099</a></li>
+                    <li class="list-item"><a href="#">6109117102</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p class="info-title">分工</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">首页和主样式设定，视频弹幕，实现响应式</a></li>
+                    <li class="list-item"><a href="#">视频播放页面</a></li>
+                    <li class="list-item"><a href="#">搜索页面，后端支持</a></li>
+                    <li class="list-item"><a href="#">登陆注册js模态框实现，后端支持</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p class="info-title">说明</p>
+                <ul class="info-list">
+                    <li class="list-item"><a href="#">照着爱奇艺做的</a></li>
+                    <li class="list-item"><a href="#">css全部手写</a></li>
+                    <li class="list-item"><a href="#">没有用任何前端框架</a></li>
+                    <li class="list-item"><a href="#">都是原生js</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/danmu.js"></script>
 </body>
 </html>
